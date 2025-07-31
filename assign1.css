@@ -1,0 +1,62 @@
+/* Bagian header dengan background biru tua */
+.header {
+  background-color: #2e3b4e;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  display: block;
+  margin: 0 auto; /* Ini membuat gambar center horizontal */
+}
+
+
+/* Agar teks di sebelah kanan foto rata kiri */
+.header .text-container {
+  text-align: left;
+}
+
+/* Judul section */
+.section-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Gaya gambar sertifikat (jika ada) */
+.certificate-img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+/* Footer */
+footer {
+  background-color: #2e3b4e;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Bagian info kontak dengan background hitam */
+.contact-info {
+  background-color: #000;
+  color: white;
+  padding: 20px 20px;
+}
+
+/* Setiap item kontak dalam kotak tersendiri */
+.contact-item {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}
+
+
